@@ -8,6 +8,14 @@ import 'package:go_router/go_router.dart';
 
 import '../features/products_list/products_list_screen.dart';
 
+enum AppRoute {
+  home,
+  cart,
+  orders,
+  account,
+  signIn,
+}
+
 final goRouter = GoRouter(
   initialLocation: '/',
   debugLogDiagnostics: true,
